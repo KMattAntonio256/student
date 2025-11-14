@@ -103,7 +103,7 @@ Here is what I did at those places
 
 - Del Norte High School Pre-School (2014-2015)
 - Monterery Ridge Elementary School (2016-2022)
-- Oak Valley Middle School (2022-2025)
+- Oak Valley Middle School Years(2022-2025)
 - Del Norte High School Freshman Year (2025)
 
 ### Culture, Family, and Fun
@@ -119,5 +119,5 @@ Gallery of Pics, scroll to the right for more ...
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
-  
+
 </div>
