@@ -5,7 +5,7 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Matt Antonio]
+Hi! My name is Matt Antonio
 
 ### Development Environment
 
