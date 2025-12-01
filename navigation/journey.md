@@ -10,7 +10,7 @@ permalink: /tools/journey
 
 Linux is the most compatible OS for Developers.  
 
-![Tux the Linux Mascot]({{site.baseurl}}/images/tux.png)
+![Tux the Linux Mascot]({{site.baseurl}}/images/tux.svg.png)
 
 This visual help remind me of Tools and their relationship to my Development Journey. 
 
@@ -25,7 +25,7 @@ flowchart TD
         T[Template Repo: student]:::repo
     end
 
-    subgraph GitHub_Student[GitHub: jm1021/student]
+    subgraph GitHub_Student[GitHub: KMattAntonio256/student]
         B[Repo: student]:::repo
     end
 
