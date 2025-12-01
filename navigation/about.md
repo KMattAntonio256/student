@@ -99,6 +99,12 @@ Here is what I did at those places
 - Oak Valley Middle School Years (2022-2025)
 - Del Norte High School Freshman Year (2025-Ongoing)
 
+### Karate Achievements
+- I have been to four tournaments across my Karate career. 
+- I have placed in ever single one, my most prized being 1st place in weapons forms
+- I have reached black belt after 7 years of hard-work and now intern at the dojo. Our form takes the longest to reach black-belt out of all fighting styles. 
+
+
 ### Culture, Family, and Fun
 
 Everything for me, as for many others, revolves around family and friends.
