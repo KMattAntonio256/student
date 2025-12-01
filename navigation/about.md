@@ -112,4 +112,5 @@ Gallery of Pics — scroll to the right for more...
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/2025-12-01-084118.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/fries.png" alt="Image 2">
+  <img src="{{site.baseurl}}/images/about/Shrimp-Tempura-1.png" alt ="Image 3">
 </div>
