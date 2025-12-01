@@ -103,7 +103,7 @@ Here is what I did at those places
 
 Everything for me, as for many others, revolves around family and friends.
 
-- My mother told me that I was Filipino — here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
+- My mother told me that I was Filipino and she moved with my dad here afor a fresh start away from the Phillippines. — here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
 - The gallery of pics has some of myself and my favorite food.
 
 <comment>
