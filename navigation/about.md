@@ -90,14 +90,14 @@ Flags are made using Wikipedia images
     }
 </script>
 
-### Journey through Life
+### Journey through School
 
 Here is what I did at those places
 
 - Del Norte High School Pre-School (2014-2015)
 - Monterery Ridge Elementary School (2016-2022)
 - Oak Valley Middle School Years (2022-2025)
-- Del Norte High School Freshman Year (2025)
+- Del Norte High School Freshman Year (2025-Ongoing)
 
 ### Culture, Family, and Fun
 
