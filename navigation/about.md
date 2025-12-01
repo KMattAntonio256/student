@@ -5,7 +5,7 @@ permalink: /about/
 comments: true
 ---
 
-## As a conversation Starter
+## As a Conversation Starter
 
 Here are some places I have lived.
 
@@ -14,82 +14,78 @@ Flags are made using Wikipedia images
 </comment>
 
 <style>
-    /* Style looks pretty compact, 
-       - grid-container and grid-item are referenced the code 
-    */
+    /* Updated styles: cleaner spacing, soft shadows, rounded corners for fun*/
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
-        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 15px;
+        margin-top: 15px;
     }
     .grid-item {
         text-align: center;
+        padding: 10px;
+        background: #fafafa;
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .grid-item:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
     .grid-item img {
         width: 100%;
-        height: 100px; /* Fixed height for uniformity */
-        object-fit: contain; /* Ensure the image fits within the fixed height */
+        height: 100px;
+        object-fit: contain;
+        border-radius: 6px;
     }
     .grid-item p {
-        margin: 5px 0; /* Add some margin for spacing */
+        margin: 6px 0;
+        font-size: 0.95rem;
     }
 
     .image-gallery {
         display: flex;
         flex-wrap: nowrap;
         overflow-x: auto;
-        gap: 10px;
-        }
-
+        gap: 12px;
+        padding: 10px 0;
+    }
     .image-gallery img {
-        max-height: 150px;
-        object-fit: cover;
-        border-radius: 5px;
+        max-height: 160px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+        flex-shrink: 0;
     }
 </style>
 
-<!-- This grid_container class is used by CSS styling and the id is used by JavaScript connection -->
-<div class="grid-container" id="grid_container">
-    <!-- content will be added here by JavaScript -->
-</div>
+<div class="grid-container" id="grid_container"></div>
 
 <script>
-    // 1. Make a connection to the HTML container defined in the HTML div
-    var container = document.getElementById("grid_container"); // This container connects to the HTML div
-
-    // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
+    var container = document.getElementById("grid_container");
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
+
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},        
-        ];
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"}
+    ];
 
-    // 3a. Consider how to update style count for size of container
-    // The grid-template-columns has been defined as dynamic with auto-fill and minmax
-
-    // 3b. Build grid items inside of our container for each row of data
     for (const location of living_in_the_world) {
-        // Create a "div" with "class grid-item" for each row
         var gridItem = document.createElement("div");
-        gridItem.className = "grid-item";  // This class name connects the gridItem to the CSS style elements
-        // Add "img" HTML tag for the flag
+        gridItem.className = "grid-item";
+
         var img = document.createElement("img");
-        img.src = http_source + location.flag; // concatenate the source and flag
-        img.alt = location.flag + " Flag"; // add alt text for accessibility
+        img.src = http_source + location.flag;
+        img.alt = location.flag + " Flag";
 
-        // Add "p" HTML tag for the description
         var description = document.createElement("p");
-        description.textContent = location.description; // extract the description
+        description.textContent = location.description;
 
-        // Add "p" HTML tag for the greeting
         var greeting = document.createElement("p");
-        greeting.textContent = location.greeting;  // extract the greeting
+        greeting.textContent = location.greeting;
 
-        // Append img and p HTML tags to the grid item DIV
         gridItem.appendChild(img);
         gridItem.appendChild(description);
         gridItem.appendChild(greeting);
-
-        // Append the grid item DIV to the container DIV
         container.appendChild(gridItem);
     }
 </script>
@@ -100,21 +96,20 @@ Here is what I did at those places
 
 - Del Norte High School Pre-School (2014-2015)
 - Monterery Ridge Elementary School (2016-2022)
-- Oak Valley Middle School Years(2022-2025)
+- Oak Valley Middle School Years (2022-2025)
 - Del Norte High School Freshman Year (2025)
 
 ### Culture, Family, and Fun
 
 Everything for me, as for many others, revolves around family and friends.
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+- My mother told me that I was Danish, English, and Irish — here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
+- My family is pretty big as I have been married twice; my 1st wife passed away. We have had 5 kids (4 adopted by me, 1 biological), plus three grandkids. My name to my grandkids is Abuilito.
+- The gallery of pics has some of my family, fun, culture, and faith memories.
 
 <comment>
-Gallery of Pics, scroll to the right for more ...
+Gallery of Pics — scroll to the right for more...
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
-
 </div>
