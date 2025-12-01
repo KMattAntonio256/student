@@ -66,7 +66,7 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
 
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"}
+        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - Since forever"}
     ];
 
     for (const location of living_in_the_world) {
@@ -103,13 +103,13 @@ Here is what I did at those places
 
 Everything for me, as for many others, revolves around family and friends.
 
-- My mother told me that I was Danish, English, and Irish — here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice; my 1st wife passed away. We have had 5 kids (4 adopted by me, 1 biological), plus three grandkids. My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture, and faith memories.
+- My mother told me that I was Filipino — here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
+- The gallery of pics has some of myself and my favorite food.
 
 <comment>
 Gallery of Pics — scroll to the right for more...
 </comment>
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/missionary.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/2025-12-01-084118.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/fries.png" alt="Image 2">
 </div>
