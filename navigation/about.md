@@ -104,6 +104,12 @@ Here is what I did at those places
 - I have placed in ever single one, my most prized being 1st place in weapons forms
 - I have reached black belt after 7 years of hard-work and now intern at the dojo. Our form takes the longest to reach black-belt out of all fighting styles. 
 
+### Experience
+- I have started to coding before taking computer science. 
+- I have ongoing projects in Roblox Studio where I have learned most concepts in the coding language lua. 
+- I have learned how to do basically everything in Roblox Studio, build, code basic things and do planning for what I'm going to do next, or how I'm going to add more to the game.
+- My partner Rohan has helped me out with building some of my games as well very helpful with some tasks that I don't have time to do. 
+
 
 ### Culture, Family, and Fun
 
