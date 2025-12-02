@@ -10,7 +10,7 @@ permalink: /tools/journey
 
 Linux is the most compatible OS for Developers.  
 
-![Tux the Linux Mascot]({{site.baseurl}}/images/tux.svg.png)
+![Tux the Linux Mascot]({{site.baseurl}}/images/tuz.png)
 
 This visual help remind me of Tools and their relationship to my Development Journey. 
 
