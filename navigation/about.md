@@ -24,7 +24,7 @@ Flags are made using Wikipedia images
     .grid-item {
         text-align: center;
         padding: 10px;
-        background: #fafafa;
+        background: #6d6565ff;
         border-radius: 12px;
         box-shadow: 0 2px 6px rgba(0,0,0,0.1);
         transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -115,7 +115,7 @@ Here is what I did at those places
 
 Everything for me, as for many others, revolves around family and friends.
 
-- My mother told me that I was Filipino and she moved with my dad here afor a fresh start away from the Phillippines. — here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
+- My mother told me that I was Filipino and she moved with my dad here for a fresh start away from the Phillippines. — here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
 - The gallery of pics has some of myself and my favorite food.
 
 <comment>
