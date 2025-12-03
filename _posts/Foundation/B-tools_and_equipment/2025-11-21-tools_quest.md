@@ -30,7 +30,7 @@ flowchart LR
 
     %% Day 8-10: VSCode App & Terminal
     subgraph Day_3[Day 8-10: VSCode App + Terminal]
-        D[learned to make new files br learned mermaid and markdown optional br ]:::daycuatro
+        D[learned to make new files <br/> learned mermaid and markdown optional <br/> ]:::daycuatro
     end
 
 
