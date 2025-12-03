@@ -20,8 +20,8 @@ flowchart TD
     %% Days 1–3: Accounts & Setup
     subgraph Days1_3[Days 1–3: Accounts & Initial Setup]
         A[Created GitHub Account]:::repo
-        B[Created Slack Account]:::repo
-        C[Created First GitHub Repository]:::repo
+        B[Created Slack Account]:::repo1
+        C[Created First GitHub Repository]:::repo2
     end
 
     %% Days 4–6: VSCode Web & GitHub Workflow
@@ -35,13 +35,13 @@ flowchart TD
     subgraph Days7_10[Days 7–10: VSCode App + Terminal Workflow]
         G[Installed & Used VSCode App]:::local3
         H[Cloned Repositories Using Terminal]:::cmd
-        I[Edited, Committed & Pushed Locally]:::cmd
+        I[Edited, Committed & Pushed Locally]:::cmd1
     end
 
     %% Days 11–14: Deeper Git understanding
     subgraph Days11_14[Days 11–14: Full Git Workflow Understanding]
-        J[Learned Step-by-Step Git Process<br/>(Missing steps = failure)]:::cmd
-        K[Practiced Repeated Terminal Workflow]:::cmd
+        J[Learned Step-by-Step Git Process<br/>(Missing steps = failure)]:::cmd2
+        K[Practiced Repeated Terminal Workflow]:::cmd3
     end
 
     %% Flow of Learning
