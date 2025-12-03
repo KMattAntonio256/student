@@ -20,12 +20,12 @@ flowchart LR
     %% Day 1-7: Computer Setup
     subgraph Day_1[Day 1-7: Computer Setup]
         A[1-3<br/><br/>Created GitHub and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up GitHub Pages]:::dayuno
-        B[Installed different ways<br/>WSL, Homebrew, Kasm<br/>Pulled GitHub repo to Linux]:::daydos
+        B[Installed different ways to access Linux systems<br/>WSL, Homebrew, Kasm<br/>Pulled GitHub repo to Linux<br/>Created and managed issues on GitHub]:::daydos
     end
 
     %% Day 4-7: OS Setup
     subgraph Day_2[Day 4-7: OS Setup]
-        C[Installed VSCode App locally<br/>Cloned repo using terminal<br/>Edited files locally and pushed changes<br/>Configured Linux environment<br/>Set up VSCode localhost<br/>Learned to commit & push changes<br/>Created and managed issues on GitHub]:::daytres
+        C[Installed VSCode App locally<br/>Cloned repo using terminal<br/>Edited files locally and pushed changes<br/>Configured Linux environment<br/>Set up VSCode localhost<br/>Learned to commit & push changes]:::daytres
     end
 
     %% Day 8-10: VSCode App & Terminal
