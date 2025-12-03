@@ -15,44 +15,33 @@ Linux is the most compatible OS for Developers.
 This visual helps remind me of the steps I’ve taken in my Computer Science journey.
 
 
-mermaid```
+```mermaid
 flowchart TD
-    %% Days 1–3: Accounts & Setup
-    subgraph Days1_3[Days 1–3: Accounts & Initial Setup]
-        A[Created GitHub Account]:::repo
-        B[Created Slack Account]:::repo1
-        C[Created First GitHub Repository]:::repo2
+    %% Day 1-7: Computer Setup
+    subgraph Day_1[Day 1-7: Computer Setup]
+        A[1-3<br/><br/>Created GitHub and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up GitHub Pages]:::dayuno
+        B[Installed different ways<br/>WSL, Homebrew, Kasm<br/>Pulled GitHub repo to Linux]:::daydos
     end
 
-    %% Days 4–6: VSCode Web & GitHub Workflow
-    subgraph Days4_6[Days 4–6: VSCode Web & GitHub Basics]
-        D[Learned VSCode Website]:::local
-        E[Learned Commit & Push Workflow]:::local1
-        F[Learned to Make & Manage Issues]:::local2
+    %% Day 4-7: OS Setup
+    subgraph Day_2[Day 4-7: OS Setup]
+        C[Configured Linux environment<br/>Set up VSCode website<br/>Learned to commit & push changes<br/>Created and managed issues on GitHub]:::daytres
     end
 
-    %% Days 7–10: VSCode App & Terminal Git
-    subgraph Days7_10[Days 7–10: VSCode App + Terminal Workflow]
-        G[Installed & Used VSCode App]:::local3
-        H[Cloned Repositories Using Terminal]:::cmd
-        I[Edited, Committed & Pushed Locally]:::cmd1
+    %% Day 8-10: VSCode App & Terminal
+    subgraph Day_3[Day 8-10: VSCode App + Terminal]
+        D[Installed VSCode App locally<br/>Cloned repo using terminal<br/>Edited files locally and pushed changes]:::daycuatro
     end
 
-    %% Days 11–14: Deeper Git understanding
-    subgraph Days11_14[Days 11–14: Full Git Workflow Understanding]
-        J[Learned Step-by-Step Git Process<br/>(Missing steps = failure)]:::cmd2
-        K[Practiced Repeated Terminal Workflow]:::cmd3
+    %% Day 11-14: Git Workflow Practice
+    subgraph Day_4[Day 11-14: Git Workflow Mastery]
+        E[Learned full Git workflow step-by-step<br/>Practiced terminal-based commits and pushes<br/>Understanding importance of following each step]:::daycinco
     end
 
-    %% Flow of Learning
-    A --> C
+    %% Connect the Phases
+    A --> B
+    B --> C
     C --> D
     D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J --> K
 end
 ```
