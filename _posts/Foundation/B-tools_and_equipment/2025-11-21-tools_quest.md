@@ -31,7 +31,7 @@ Linux is the most compatible OS for Developers.
 
 This visual help remind me of Tools and their relationship to my Development Journey. 
 
-
+mermaid```
 flowchart TD
     %% Days 1–3: Accounts & Setup
     subgraph Days1_3[Days 1–3: Accounts & Initial Setup]
@@ -70,3 +70,5 @@ flowchart TD
     H --> I
     I --> J
     J --> K
+end
+```
