@@ -25,7 +25,7 @@ flowchart LR
 
     %% Day 4-7: OS Setup
     subgraph Day_2[Day 4-7: OS Setup]
-        C[Installed VSCode App locally<br/>Cloned repo using terminal<br/>Edited files locally and pushed changes<br/>Configured Linux environment<br/>Set up VSCode localhost<br/>Learned to commit & push changes<br/>Created and managed issues on GitHub]]:::daytres
+        C[Installed VSCode App locally<br/>Cloned repo using terminal<br/>Edited files locally and pushed changes<br/>Configured Linux environment<br/>Set up VSCode localhost<br/>Learned to commit & push changes<br/>Created and managed issues on GitHub]:::daytres
     end
 
     %% Day 8-10: VSCode App & Terminal
