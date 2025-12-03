@@ -10,7 +10,7 @@ permalink: /tools/journey
 
 Linux is the most compatible OS for Developers.  
 
-![Tux the Linux Mascot]({{site.baseurl}}/images/tux.png)
+![Tux the Linux Mascot]({{site.baseurl}}/images/tuz.png)
 
 This visual helps remind me of the steps I’ve taken in my Computer Science journey.
 
@@ -27,13 +27,13 @@ flowchart TD
     %% Days 4–6: VSCode Web & GitHub Workflow
     subgraph Days4_6[Days 4–6: VSCode Web & GitHub Basics]
         D[Learned VSCode Website]:::local
-        E[Learned Commit & Push Workflow]:::local
-        F[Learned to Make & Manage Issues]:::local
+        E[Learned Commit & Push Workflow]:::local1
+        F[Learned to Make & Manage Issues]:::local2
     end
 
     %% Days 7–10: VSCode App & Terminal Git
     subgraph Days7_10[Days 7–10: VSCode App + Terminal Workflow]
-        G[Installed & Used VSCode App]:::local
+        G[Installed & Used VSCode App]:::local3
         H[Cloned Repositories Using Terminal]:::cmd
         I[Edited, Committed & Pushed Locally]:::cmd
     end
