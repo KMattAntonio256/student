@@ -12,7 +12,7 @@ Linux is the most compatible OS for Developers.
 
 ![Tux the Linux Mascot]({{site.baseurl}}/images/tuz.png)
 
-This visual helps remind me of the steps I’ve taken in my Computer Science journey.
+This visual helps remind me of the steps I’ve taken in my Computer Science journey so far.
 
 
 ```mermaid
@@ -25,18 +25,14 @@ flowchart LR
 
     %% Day 4-7: OS Setup
     subgraph Day_2[Day 4-7: OS Setup]
-        C[Configured Linux environment<br/>Set up VSCode website<br/>Learned to commit & push changes<br/>Created and managed issues on GitHub]:::daytres
+        C[Installed VSCode App locally<br/>Cloned repo using terminal<br/>Edited files locally and pushed changes<br/>Configured Linux environment<br/>Set up VSCode localhost<br/>Learned to commit & push changes<br/>Created and managed issues on GitHub]]:::daytres
     end
 
     %% Day 8-10: VSCode App & Terminal
     subgraph Day_3[Day 8-10: VSCode App + Terminal]
-        D[Installed VSCode App locally<br/>Cloned repo using terminal<br/>Edited files locally and pushed changes]:::daycuatro
+        D[learned to make new files br learned mermaid and markdown optional br ]:::daycuatro
     end
 
-    %% Day 11-14: Git Workflow Practice
-    subgraph Day_4[Day 11-14: Git Workflow Mastery]
-        E[Learned full Git workflow step-by-step<br/>Practiced terminal-based commits and pushes<br/>Understanding importance of following each step]:::daycinco
-    end
 
     %% Connect the Phases
     A --> B
