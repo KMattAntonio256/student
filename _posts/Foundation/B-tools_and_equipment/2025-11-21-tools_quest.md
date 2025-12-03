@@ -16,7 +16,7 @@ This visual helps remind me of the steps I’ve taken in my Computer Science jou
 
 
 ```mermaid
-flowchart TD
+flowchart LR
     %% Day 1-7: Computer Setup
     subgraph Day_1[Day 1-7: Computer Setup]
         A[1-3<br/><br/>Created GitHub and Slack account<br/>Joined Open Coding Society Slack<br/>Discussed PII<br/>Cloned OpenCS repo<br/>Set up GitHub Pages]:::dayuno
