@@ -12,44 +12,32 @@ Linux is the most compatible OS for Developers.
 
 ![Tux the Linux Mascot]({{site.baseurl}}/images/tux.png)
 
-This visual help remind me of Tools and their relationship to my Development Journey. 
+This visual helps remind me of the steps I’ve taken in my Computer Science journey.
 
 ```mermaid
 flowchart TD
-    %% GitHub Sources
-    subgraph GitHub_Pages[GitHub: Open-Coding-Society/pages]
-        A[Repo: pages]:::repo
+    subgraph Day1[Days 1-3: Getting Started]
+        A[Created GitHub Account]
+        B[Set Up Slack]
+        C[Made First GitHub Repository]
     end
 
-    subgraph GitHub_Template[GitHub: Open-Coding-Society/student]
-        T[Template Repo: student]:::repo
+    subgraph Day2[Days 2-5: Learning GitHub Features]
+        D[Learnt GitHub Issues]
+        E[Practiced Commits and Pushes on GitHub Website]
+        F[Explored VSCode Web Version]
     end
 
-    subgraph GitHub_Student[GitHub: KMattAntonio256/student]
-        B[Repo: student]:::repo
+    subgraph Day3[Days 5-10: Moving to VSCode App]
+        G[Installed VSCode on OS]
+        H[Cloned Repository Using Terminal]
+        I[Edited Files Locally]
+        J[Learnt Full Commit → Push Workflow]
     end
 
-    %% Local Computer
-    subgraph Local[Local Computer]
-        subgraph opencs_dir[opencs/ directory]
-            C[pages/]:::local
-            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
-        end
-        subgraph user_dir[jm1021/ directory]
-            D[student/]:::local
-            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
-        end
+    subgraph Day4[Day 10-12: Understanding Process Discipline]
+        K[Followed Steps Carefully]
+        L[Realized Missing Any Step Causes Errors]
     end
 
-    %% Arrows: cloning
-    A -.->|clone/pull only| C
-    B <--> |clone, pull & push| D
-
-    %% Arrows: template relationship
-    T -.->|template→created| B
-
-    %% Arrows: commands
-    C --> Ccmd
-    D <--> Dcmd
-
-```
+    A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L
