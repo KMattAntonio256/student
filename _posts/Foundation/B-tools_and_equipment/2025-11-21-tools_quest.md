@@ -27,7 +27,7 @@ flowchart LR
    end
 
 
-   subgraph GitHub_Student[GitHub: rsharma5128/student]
+   subgraph GitHub_Student[GitHub: KMattAntonio256/student]
        B[Repo: student]:::repo
    end
 
@@ -38,7 +38,7 @@ flowchart LR
            C[pages/]:::local
            Ccmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
        end
-       subgraph user_dir[rsharma5128/ directory]
+       subgraph user_dir[KMattAntonio256/ directory]
            D[student/]:::local
            Dcmd[VSCode Prep<br/><br/>./scripts/venv.sh<br/>source venv/bin/activate<br/>code .]:::cmd
        end
