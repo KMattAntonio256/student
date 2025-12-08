@@ -145,6 +145,8 @@ permalink: /snake/
         let food = {x: 0, y: 0};
         let score;
         let wall;
+        let min_speed = 35
+        let speed_decay = 2
         /* Display Control */
         /////////////////////////////////////////////////////////////
         // 0 for the game
@@ -265,6 +267,9 @@ permalink: /snake/
             if(checkBlock(snake[0].x, snake[0].y, food.x, food.y)){
                 snake[snake.length] = {x: snake[0].x, y: snake[0].y};
                 altScore(++score);
+                if (snake_speed > min_speed) {
+                    snake_speed -= speed_decay;
+                }
                 addFood();
                 activeDot(food.x, food.y);
             }
