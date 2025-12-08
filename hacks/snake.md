@@ -136,6 +136,7 @@ permalink: /snake/
         const button_setting_menu1 = document.getElementById("setting_menu1");
         // Game Control
         const BLOCK = 10;   // size of block rendering
+        const deathSound = new Audio("/hacks/api/Audio/death.mp3");
         let SCREEN = SCREEN_MENU;
         let snake;
         let snake_dir;
@@ -229,9 +230,12 @@ permalink: /snake/
             // Wall Checker
             if(wall === 1){
                 // Wall on, Game over test
-                if (snake[0].x < 0 || snake[0].x === canvas.width / BLOCK || snake[0].y < 0 || snake[0].y === canvas.height / BLOCK){
-                    showScreen(SCREEN_GAME_OVER);
-                    return;
+                if (snake[0].x < 0 || snake[0].x === canvas.width / BLOCK
+                || snake[0].y < 0 || snake[0].y === canvas.height / BLOCK){
+                deathSound.play();
+                showScreen(SCREEN_GAME_OVER);
+            return;
+          }
                 }
             }else{
                 // Wall Off, Circle around
@@ -254,6 +258,7 @@ permalink: /snake/
             for(let i = 1; i < snake.length; i++){
                 // Game over test
                 if (snake[0].x === snake[i].x && snake[0].y === snake[i].y){
+                    deathSound.play();
                     showScreen(SCREEN_GAME_OVER);
                     return;
                 }
