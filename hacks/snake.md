@@ -365,8 +365,13 @@ for (let i = 0; i < rows; i++) {
         }
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
-        let activeDot = function(x, y){
-            ctx.fillStyle = "#da1111ff";
+        let drawSnakeDot = function(x, y){
+            ctx.fillStyle = "#FFFFFF";      // snake color (change to anything)
+            ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+        }
+
+        let drawFoodDot = function(x, y){
+            ctx.fillStyle = "#FF0000";      // food color (red, change as needed)
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         /* Random food placement */
