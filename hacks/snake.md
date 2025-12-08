@@ -272,7 +272,7 @@ const DARK_GREEN = '#AAD751';  // A darker green shade
 
 // Define the size of each tile (square) in the checkerboard
 // This should typically be the same size as your snake segments/grid cells
-const TILE_SIZE = 20; 
+const TILE_SIZE = 10; 
 
 // Calculate the number of columns and rows based on the canvas size and tile size
 const cols = canvas.width / TILE_SIZE;
