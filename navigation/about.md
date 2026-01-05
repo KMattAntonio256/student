@@ -66,9 +66,9 @@ Flags are made using Wikipedia images
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
 
     var living_in_the_world = [
-        {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - Since forever"}
-        
-        {"flag": "9/99/Flag_of_the_Philippines.svg", "greeting": "Mabuhay", "description": "Philippines - Since forever"}
+        {flag: "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - Since forever"},
+
+        {flag: "9/99/Flag_of_the_Philippines.svg", "greeting": "Mabuhay", "description": "Philippines - Since forever"}
     ];
 
     for (const location of living_in_the_world) {
