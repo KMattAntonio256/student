@@ -119,14 +119,14 @@ Here is what I did at those places
             description: "My first project mainly made by myself made to be a chaos sandbox to parody normal airport games."
         },
         {
-            image: "{{site.baseurl}}/images/about/project2.jpg", 
+            image: "{{site.baseurl}}/images/about/miami.webp", 
             title: "Tacitorn Port Game",
             description: "An attempted project to make a GTA Clone. Well-developed with lots of code but nowhere close to finished currently not being maintained. Major improvement to dumb airport game."
         },
         {
-            image: "{{site.baseurl}}/images/about/project3.jpg", 
+            image: "{{site.baseurl}}/images/about/zombie.webp", 
             title: "Left With Nothing",
-            description: "My current project. It's a zombie survival game where your put into an abandoned city forced to scavenge for weapons to survive the infected, hostile NPCs, and other players. My most well-developed game compared to my previous ones. "
+            description: "My current project. It's a zombie survival game where your put into an abandoned city forced to scavenge for weapons to survive the  and their variants, hostile NPCs, and other players. My most well-developed game compared to my previous ones. "
         }
     ];
 
