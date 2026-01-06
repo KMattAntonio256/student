@@ -106,7 +106,7 @@ Here is what I did at those places
 - I have placed in ever single one, my most prized being 1st place in weapons forms
 - I have reached black belt after 7 years of hard-work and now intern at the dojo. Our form takes the longest to reach black-belt out of all fighting styles. 
 
-### Experience
+### Experience with Roblox Studio
 <div class="grid-container" id="roblox_grid"></div>
 
 <script>
